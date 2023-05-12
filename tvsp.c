@@ -162,6 +162,4 @@ int main(int argc, char *argv[])
         int status;
         wait(&status);
     }
-
-    fork();
 }

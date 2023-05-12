@@ -1,0 +1,227 @@
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+Address sizes:                   46 bits physical, 48 bits virtual
+CPU(s):                          32
+On-line CPU(s) list:             0-31
+Thread(s) per core:              1
+Core(s) per socket:              24
+Socket(s):                       1
+NUMA node(s):                    1
+Vendor ID:                       GenuineIntel
+CPU family:                      6
+Model:                           183
+Model name:                      13th Gen Intel(R) Core(TM) i9-13900K
+Stepping:                        1
+Frequency boost:                 enabled
+CPU MHz:                         2461.119
+CPU max MHz:                     3001.0000
+CPU min MHz:                     800.0000
+BogoMIPS:                        5990.40
+Virtualization:                  VT-x
+L1d cache:                       576 KiB
+L1i cache:                       384 KiB
+L2 cache:                        24 MiB
+NUMA node0 CPU(s):               0-31
+Vulnerability Itlb multihit:     Not affected
+Vulnerability L1tf:              Not affected
+Vulnerability Mds:               Not affected
+Vulnerability Meltdown:          Not affected
+Vulnerability Mmio stale data:   Not affected
+Vulnerability Retbleed:          Not affected
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Enhanced IBRS, IBPB conditional, RSB filling, PBRSB-eIBRS SW sequence
+Vulnerability Srbds:             Not affected
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon
+                                 pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x
+                                 2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpri
+                                 ority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves split_lock_detect avx_vnn
+                                 i dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req hfi umip pku ospke waitpkg gfni vaes vpclmulqdq tme rdpid movdiri movdir64b fsrm md_clear serialize pco
+                                 nfig arch_lbr ibt flush_l1d arch_capabilities
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+
+ Performance counter stats for 'CPU(s) 8' (10 runs):
+
+       14411022990      cpu_core/ref-cycles/             #    2.996 G/sec                    ( +-  0.12% )
+       37904787339      cpu_core/instructions/           #    7.880 G/sec                    ( +-  0.04% )
+              6884      faults                           #    1.431 K/sec                    ( +-  1.29% )
+                 2      migrations                       #    0.416 /sec
+           4004123      cs                               #  832.407 K/sec                    ( +-  0.01% )
+           4811.70 msec cpu-clock                        #    1.000 CPUs utilized            ( +-  0.12% )
+        4811721369 ns   duration_time                    #    1.000 G/sec                    ( +-  0.12% )
+
+           # Table of individual measurements:
+           4.80665 (-0.00367) #
+           4.84682 (+0.03650) #
+           4.83520 (+0.02488) #
+           4.80359 (-0.00673) #
+           4.79763 (-0.01269) #
+           4.81398 (+0.00366) #
+           4.80879 (-0.00153) #
+           4.78734 (-0.02298) #
+           4.79147 (-0.01885) #
+           4.81172 (+0.00140) #
+
+           # Final result:
+           4.81032 +- 0.00584 seconds time elapsed  ( +-  0.12% )
+
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+
+ Performance counter stats for 'CPU(s) 8' (10 runs):
+
+       11336362986      cpu_core/ref-cycles/             #    3.008 G/sec                    ( +-  0.19% )
+       36741331529      cpu_core/instructions/           #    9.747 G/sec                    ( +-  0.01% )
+               484      faults                           #  128.404 /sec                     ( +-  0.10% )
+                 2      migrations                       #    0.531 /sec
+           4000830      cs                               #    1.061 M/sec                    ( +-  0.00% )
+           3785.12 msec cpu-clock                        #    1.004 CPUs utilized            ( +-  0.19% )
+        3785133083 ns   duration_time                    #    1.004 G/sec                    ( +-  0.19% )
+
+           # Table of individual measurements:
+           3.76896 (-0.00042) #
+           3.77613 (+0.00675) #
+           3.70701 (-0.06237) #
+           3.77684 (+0.00747) #
+           3.78417 (+0.01479) #
+           3.78354 (+0.01416) #
+           3.76676 (-0.00261) #
+           3.77066 (+0.00128) #
+           3.77457 (+0.00519) #
+           3.78513 (+0.01576) #
+
+           # Final result:
+           3.76938 +- 0.00722 seconds time elapsed  ( +-  0.19% )
+
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+Threads: 0
+Parallelism: 400
+
+ Performance counter stats for 'CPU(s) 24' (10 runs):
+
+       28161928002      cpu_atom/ref-cycles/             #    2.987 G/sec                    ( +-  0.20% )
+       38440717089      cpu_atom/instructions/           #    4.078 G/sec                    ( +-  0.01% )
+              7684      faults                           #  815.086 /sec                     ( +-  1.70% )
+                 2      migrations                       #    0.212 /sec
+           4013338      cs                               #  425.718 K/sec                    ( +-  0.02% )
+           9402.70 msec cpu-clock                        #    0.997 CPUs utilized            ( +-  0.20% )
+        9402742249 ns   duration_time                    #  997.403 M/sec                    ( +-  0.20% )
+
+            # Table of individual measurements:
+            9.4678 (+0.0406) #
+            9.4187 (-0.0085) #
+            9.4909 (+0.0636) #
+            9.5158 (+0.0885) #
+            9.3617 (-0.0656) #
+            9.4062 (-0.0211) #
+            9.3263 (-0.1009) #
+            9.4059 (-0.0214) #
+            9.4765 (+0.0492) #
+            9.4027 (-0.0245) #
+
+            # Final result:
+            9.4273 +- 0.0189 seconds time elapsed  ( +-  0.20% )
+
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+Threads: 1
+Parallelism: 400
+
+ Performance counter stats for 'CPU(s) 24' (10 runs):
+
+       18877918176      cpu_atom/ref-cycles/             #    3.026 G/sec                    ( +-  0.53% )
+       37052180240      cpu_atom/instructions/           #    5.939 G/sec                    ( +-  0.01% )
+               484      faults                           #   77.578 /sec                     ( +-  0.09% )
+                 2      migrations                       #    0.321 /sec
+           4000854      cs                               #  641.280 K/sec                    ( +-  0.00% )
+           6303.00 msec cpu-clock                        #    1.010 CPUs utilized            ( +-  0.53% )
+        6303022795 ns   duration_time                    #    1.010 G/sec                    ( +-  0.53% )
+
+            # Table of individual measurements:
+            5.9487 (-0.2902) #
+            6.2575 (+0.0186) #
+            6.2213 (-0.0176) #
+            6.2453 (+0.0065) #
+            6.2860 (+0.0471) #
+            6.2478 (+0.0089) #
+            6.3098 (+0.0709) #
+            6.2795 (+0.0406) #
+            6.2900 (+0.0511) #
+            6.3030 (+0.0641) #
+
+            # Final result:
+            6.2389 +- 0.0334 seconds time elapsed  ( +-  0.54% )
+
+Linux os-tb1 6.1.0-0.deb11.6-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.15-1~bpo11+1 (2023-03-16) x86_64 GNU/Linux
